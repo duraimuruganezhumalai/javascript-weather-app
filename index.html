@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="weather-container">
+                <form name="weatherForm">
+                    <div>
+                        <input type="text" id="weatherinput" class="cityinput" placeholder="Enter city name"
+                            name="weather-humidity">
+                    </div>
+                    <div class="weather-result-section">
+                        <span class="weather-result"></span>
+                    </div>
+                    <div class="search-btn-section">
+                        <button type="submit" class="search-btn">Search</button>
+                    </div>
+                </form>
+                <div class="w-place">Weather in  : <span class="weather-place"></span></div>
+                <div class="w-condition">Condition : <span class="weather-condition"></span></div>
+                <div class="w-temperature">Temperature : <span class="weather-temperature"></span></div>
+                <div class="w-humidity">Humidity : <span class="weather-humidity"></span></div>
+            </div>
+        </section>
+    </main>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
